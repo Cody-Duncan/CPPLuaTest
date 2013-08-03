@@ -31,8 +31,5 @@
     <ClInclude Include="LuaScript.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="MersenneTwister.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
   </ItemGroup>
 </Project>

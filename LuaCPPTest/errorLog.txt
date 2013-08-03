@@ -1,0 +1,18 @@
+Starting Log: 2013-August-02.23:44:18
+Starting Log: 2013-August-03.00:26:06
+Starting Log: 2013-August-03.00:32:07
+Starting Log: 2013-August-03.00:35:33
+status=2, test.lua:3: attempt to call global 'average' (a nil value)
+Starting Log: 2013-August-03.00:36:03
+Starting Log: 2013-August-03.00:40:57
+Starting Log: 2013-August-03.00:41:09
+Starting Log: 2013-August-03.00:41:12
+Starting Log: 2013-August-03.00:41:14
+Starting Log: 2013-August-03.00:41:17
+Starting Log: 2013-August-03.00:41:20
+Starting Log: 2013-August-03.00:41:45
+Starting Log: 2013-August-03.00:41:48
+Starting Log: 2013-August-03.00:41:49
+Starting Log: 2013-August-03.00:41:56
+Starting Log: 2013-August-03.00:42:17
+Starting Log: 2013-August-03.00:42:23

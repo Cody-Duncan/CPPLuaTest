@@ -11,9 +11,9 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{F496AB36-6B0E-4635-8B63-CD1A700BAD94}</ProjectGuid>
+    <ProjectGuid>{35000B70-62EB-4DB2-9151-35E584CF94B9}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
-    <RootNamespace>CPPLuaTest</RootNamespace>
+    <RootNamespace>LuaCPPTest</RootNamespace>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
@@ -64,10 +64,6 @@
       <AdditionalLibraryDirectories>$(SolutionDir)Lua_x86_5.2.1;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <AdditionalDependencies>lua52.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
-    <PostBuildEvent>
-      <Command>xcopy /y "$(ProjectDir)Lua_x86_5.2.1\*.dll" "$(OutDir)"
-xcopy /y "$(ProjectDir)*.lua" "$(OutDir)"</Command>
-    </PostBuildEvent>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
     <ClCompile>
@@ -89,17 +85,7 @@ xcopy /y "$(ProjectDir)*.lua" "$(OutDir)"</Command>
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="LuaScript.cpp" />
     <ClCompile Include="Main.cpp" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="test.lua">
-      <DeploymentContent Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</DeploymentContent>
-    </None>
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="LuaScript.h" />
-    <ClInclude Include="MersenneTwister.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

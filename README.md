@@ -4,7 +4,8 @@ CPPLuaTest
 Trying out code to have C++ communicate with Lua
 
 -------
-Sources
+###Sources  
+
 Christian Stigen Larsen - short tutorial on calling lua from C  
 http://csl.name/lua/
 
